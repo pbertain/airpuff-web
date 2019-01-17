@@ -11,6 +11,11 @@ a {
 
 .body_main {
     background: #333333;
+    color: #FFF;
+    font-family: "Tahoma";
+    font-style: normal;
+    font-size: 5vw;
+    font-weight: normal;
 }
 
 .header {

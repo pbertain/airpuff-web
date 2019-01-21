@@ -94,6 +94,13 @@ a {
     text-align: left;
 }
 
+.td_list {
+    color: #FFF;
+    border: 1;
+    font-size: 1.0em;
+    text-align: left;
+}
+
 .th_titles {
     color: #FF0;
     text-align: left;

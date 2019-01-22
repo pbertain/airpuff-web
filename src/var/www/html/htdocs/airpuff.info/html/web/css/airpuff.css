@@ -14,7 +14,7 @@ a {
     color: #FFF;
     font-family: "Tahoma";
     font-style: normal;
-    font-size: 5vw;
+    font-size: 1vw;
     font-weight: normal;
 }
 
@@ -80,25 +80,11 @@ a {
     text-align: left;
 }
 
-.td_pink {
-    color: #F66;
-    font-family: Courier;
-    font-style: normal;
-    font-variant: small-caps;
-    font-size: 0.75em;
-    text-align: left;
-}
-
 .td_lg {
     color: #90EE90;
     font-family: Courier;
     font-style: normal;
     font-size: 0.75em;
-    text-align: left;
-}
-
-.td_titles {
-    color: #FF0;
     text-align: left;
 }
 
@@ -113,6 +99,20 @@ a {
     color: #FFF;
     border: 1;
     font-size: 1 em;
+    text-align: left;
+}
+
+.td_pink {
+    color: #F66;
+    font-family: Courier;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 0.75em;
+    text-align: left;
+}
+
+.td_titles {
+    color: #FF0;
     text-align: left;
 }
 

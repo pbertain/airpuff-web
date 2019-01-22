@@ -80,6 +80,15 @@ a {
     text-align: left;
 }
 
+.td_pink {
+    color: #F66;
+    font-family: Courier;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 0.75em;
+    text-align: left;
+}
+
 .td_lg {
     color: #90EE90;
     font-family: Courier;

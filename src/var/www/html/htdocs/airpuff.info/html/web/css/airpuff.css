@@ -1,5 +1,5 @@
 a {
-    color: #FC9;
+    color: #99F;
     text-decoration:underline;
     font-weight:normal;
 }
@@ -180,7 +180,7 @@ img {
 }
 
 a.def:link, a.def:visited, a.def:hover, a.def:active {
-    color:#FA0;
+    color:#99F;
     text-decoration:underline;
     font-weight:normal;
 }

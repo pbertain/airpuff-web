@@ -52,8 +52,56 @@ a {
     font-size: 2em;
 }
 
+.header_yel {
+    color: #FF0;
+    font-size: 1.5em;
+}
+
+.metarDialog {
+    position: fixed;
+    color: #FF0;
+    font-family: "Tahoma";
+    font-size: 0.625em;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.metarDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.metarDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #666;
+    background: -moz-linear-gradient(#ccc, #666);
+    background: -webkit-linear-gradient(#ccc, #666);
+    background: -o-linear-gradient(#ccc, #666);
+}
+
+
 .paragraph {
     color: #06F;
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.paragraph_metar {
+    color: #FFF;
     font-family: Georgia;
     font-style: normal;
     font-size: 1em;
